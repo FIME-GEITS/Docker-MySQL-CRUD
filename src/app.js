@@ -2,7 +2,7 @@ const express = require('express');
 const { engine } = require('express-handlebars');
 const myconnection = require('express-myconnection');
 const bodyParser = require('body-parser');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const tasksRoutes = require('./routes/tasks');
 
 const app = express();
