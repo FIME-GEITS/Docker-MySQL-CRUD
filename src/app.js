@@ -21,7 +21,7 @@ app.set('view engine', 'hbs');
 
 app.use(myconnection(mysql, {
   host: 'localhost',
-  user: 'avbravo',
+  user: 'geits',
   password: 'denver16',
   port: 3306,
   database: 'rigemdb'
